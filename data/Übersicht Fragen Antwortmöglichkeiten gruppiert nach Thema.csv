@@ -1,0 +1,114 @@
+﻿0. Tech;;VAR;LABEL;TYPE;INPUT;QUESTION
+;;CASE;Interview-Nummer (fortlaufend);METRIC;SYSTEM;
+;;SERIAL;Personenkennung oder Teilnahmecode (sofern verwendet);TEXT;SYSTEM;
+;;REF;Referenz (sofern im Link angegeben);TEXT;SYSTEM;
+;;QUESTNNR;Fragebogen, der im Interview verwendet wurde;TEXT;SYSTEM;
+;;MODE;Interview-Modus;TEXT;SYSTEM;
+;;STARTED;Zeitpunkt zu dem das Interview begonnen hat (Europe/Berlin);TIME;SYSTEM;
+;;IE02;Zustimmung Studieninformation;NOMINAL;SELECTION; Bestätigung Studieninformation
+;;IE03;Einverständnis zum Datenschutz und Widerruf (Vertraulichkeit von Probandinnen-/Probandendaten);NOMINAL;SELECTION;Einverständnis zum Datenschutz und Widerruf
+2. Naturbezug;"|1| ""wenig""; |7| viel";NB01;Naturverbundenheitsindex;NOMINAL;SELECTION;Welche Abbildung beschreibt Ihre Beziehung und Verbundenheit zur Natur am besten?
+;Stunden;NB02_01;Freizeit Natur :  ... Stunden pro Woche (gerundet auf volle Stunden);METRIC;OPEN;Wie viele Stunden verbringen Sie wöchentlich in der Natur?
+"5. Pilze Artenkenntnis
+";benennen (Freitext);PA02_01;Fliegenpilz Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich. 
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA03;Fliegenpilz Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA04_01;Frühjahrs-Giftlorchel Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA05;Frühjahrs-Giftlorchel Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA06_01;Gallenröhrling Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA07;Gallenröhrling Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA08_01;Satansröhrling Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA09;Satansröhrling Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA10_01;Rotfußröhrling Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA11;Rotfußröhrling Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA12_01;Birken-Rotkappe Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA13;Birken-Rotkappe Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA14_01;Maronenröhrling Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA15;Maronenröhrling Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA16_01;Bauchweh-Koralle Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA17;Bauchweh-Koralle Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA18_01;Grüner Knollenblätterpilz Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA19;Grüner Knollenblätterpilz Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA20_01;Speisemorchel Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA21;Speisemorchel Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA22_01;Fichten-Steinpilz Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA23;Fichten-Steinpilz Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+;benennen (Freitext);PA24_01;Wiesen-Champignon Bestimmung: Name des Pilzes;TEXT;OPEN;Bitte benennen Sie diesen Pilz so genau wie möglich.
+;"|1|""essbar"";|2|""giftig/ungenießbar"";|3|""weiß ich nicht""";PA25;Wiesen-Champignon Speisewert;NOMINAL;SELECTION;Bitte beurteilen Sie diesen Pilz hinsichtlich seines Speisewerts.
+4. Pilze Gewohnheiten;"|1|""ja"";|2|""nein"";|-9|""nicht beantwortet""";PG01;Essverhalten Pilze;NOMINAL;SELECTION;Essen Sie Pilze?
+;"|1|""ja"";|2|""nein (kein Interesse)"";|3|""nein (Bedenken aufgrund fehlenden Wissens)"";|4|""nein (keine Möglichkeit aufgrund von lokalen Gegebenheiten)"";|5|""nein (sonstige Gründe)""";PG02;Sammelverhalten Pilze;NOMINAL;SELECTION;Haben Sie schon eimnal Pilze gesammelt?
+;"""|1|""Kein Interesse""; |2|""Bedenken aufgrund fehlenden Wissens"";|3|""Keine Möglichkeit aufgrund von lokalen Gegebenheiten"";|4|""Sonstiges"";|-9|""nicht beantwortet""";PG03;Gründe für das Nichtsammeln;NOMINAL;SELECTION;Was sind Gründe dafür, dass Sie bislang keine Pilze gesammelt haben?
+3. Pilze Wissen;"|1|""ja"";|2|""nein"";|3|""kann mich nicht mehr erinnern""";PW01;Behandlung im schulischen Kontext;NOMINAL;SELECTION;Wurde das Thema 'Pilze' bei Ihnen in der Schule behandelt?
+;;PW02;Aufzählung Pilzarten: Anzahl der Nennungen;METRIC;MEASURED;Tragen Sie nachfolgend 5 heimische Pilzarten ein.
+;Freitext 5 Felder;PW02x01;Aufzählung Pilzarten: Nennung 1;TEXT;OPEN;Tragen Sie nachfolgend 5 heimische Pilzarten ein.
+;;PW02x02;Aufzählung Pilzarten: Nennung 2;TEXT;OPEN;Tragen Sie nachfolgend 5 heimische Pilzarten ein.
+;;PW02x03;Aufzählung Pilzarten: Nennung 3;TEXT;OPEN;Tragen Sie nachfolgend 5 heimische Pilzarten ein.
+;;PW02x04;Aufzählung Pilzarten: Nennung 4;TEXT;OPEN;Tragen Sie nachfolgend 5 heimische Pilzarten ein.
+;;PW02x05;Aufzählung Pilzarten: Nennung 5;TEXT;OPEN;Tragen Sie nachfolgend 5 heimische Pilzarten ein.
+;"|1|""Stimme zu"";
+|2|""Stimme nicht zu"";
+|3|""Weiß ich nicht"";
+|-9|""nicht beantwortet""";PW03_01;Grundwissen Pilze: Pilze gehören zu den Pflanzen.;ORDINAL;SCALE;Inwiefern stimmen Sie den folgenden Aussagen zu?
+;;PW03_02;Grundwissen Pilze: Pilze gehören zu den Tieren.;ORDINAL;SCALE;Inwiefern stimmen Sie den folgenden Aussagen zu?
+;;PW03_03;Grundwissen Pilze: Pilze betreiben Fotosynthese.;ORDINAL;SCALE;Inwiefern stimmen Sie den folgenden Aussagen zu?
+;;PW03_04;Grundwissen Pilze: Pilze ernähren sich von organischen Stoffen.;ORDINAL;SCALE;Inwiefern stimmen Sie den folgenden Aussagen zu?
+;;PW03_05;Grundwissen Pilze: Pilze zersetzen organisches Material.;ORDINAL;SCALE;Inwiefern stimmen Sie den folgenden Aussagen zu?
+;;PW03_06;Grundwissen Pilze: Pilze vermehren sich mit Hilfe von Sporen.;ORDINAL;SCALE;Inwiefern stimmen Sie den folgenden Aussagen zu?
+;vorgegebene Mehrfachantworten;PW04;Quelle des Wissenserwerbs: Ausweichoption (negativ) oder Anzahl ausgewählter Optionen;METRIC;SYSTEM;Woher erlangten Sie Ihr Wissen zu Pilzen?
+;;PW04_01;Quelle des Wissenserwerbs: Kindergarten/Schule/Studium;DICHOTOMOUS;CHECKBOX;Woher erlangten Sie Ihr Wissen zu Pilzen?
+;;PW04_02;Quelle des Wissenserwerbs: Freizeitaktivität (z.B. Pfadfinder-AG);DICHOTOMOUS;CHECKBOX;Woher erlangten Sie Ihr Wissen zu Pilzen?
+;;PW04_03;Quelle des Wissenserwerbs: Freunde/Familie;DICHOTOMOUS;CHECKBOX;Woher erlangten Sie Ihr Wissen zu Pilzen?
+;;PW04_04;Quelle des Wissenserwerbs: Selbst angeeignet (Bücher o.Ä.);DICHOTOMOUS;CHECKBOX;Woher erlangten Sie Ihr Wissen zu Pilzen?
+;;PW04_05;Quelle des Wissenserwerbs: Sonstiges;DICHOTOMOUS;CHECKBOX;Woher erlangten Sie Ihr Wissen zu Pilzen?
+;;PW04_06;Quelle des Wissenserwerbs: Keine Kenntnisse vorhanden;DICHOTOMOUS;CHECKBOX;Woher erlangten Sie Ihr Wissen zu Pilzen?
+1 .soziodemographisch;"""weiblich"";""männlich"";""divers"";";SD01;Geschlecht;NOMINAL;SELECTION;Welchem Geschlecht fühlen Sie sich zugehörig?
+;ganze Zahl;SD02_01;Alter : [01];TEXT;OPEN;Wie alt sind Sie?
+;;SD03;Formale Bildung;NOMINAL;SELECTION;Welches ist der _höchste_ Bildungsabschluss, den Sie haben?
+;"|1|""Noch Schüler"";|2|""Schule beendet ohne Abschluss"";|3|""Hauptschulabschluss/Volksschulabschluss"";|4|""Realschulabschluss (Mittlere Reife)"";|5|""Abschluss Polytechnische Oberschule 10. Klasse (vor 1965: 8. Klasse)"";|6|""Fachhochschulreife (Abschluss einer Fachoberschule)"";|7|""Abitur, allgemeine oder fachgebundene Hochschulreife (Gymnasium bzw. EOS)"";|8|""Hochschulabschluss"";|9|""Anderer Schulabschluss:"";|-9|""nicht beantwortet""";SD03_09;Formale Bildung: Anderer Schulabschluss;TEXT;OPEN;Welches ist der _höchste_ Bildungsabschluss, den Sie haben?
+;"|1|""ja"";|2|""nein""";SD04;Wohnort (aktuell);NOMINAL;SELECTION;Wohnen Sie aktuell in Deutschland?
+;"|1|""Landgemeinde (<5.000 Einwohner)"";|2|""Kleinstadt (5.000-20.000 Einwohner)"";|3|""Mittelstadt (20.000-100.000 Einwohner)"";|4|""Großstadt (>100.000 Einwohner)""";SD05;Wohnort (längster Zeitraum);NOMINAL;SELECTION;An welchem Wohnort haben Sie die _längste_ Zeit Ihres Lebens gewohnt?
+intern;;ZG01_CP;Seitenabfolge: Vollständige Leerungen der Urne bisher;METRIC;MEASURED;
+;;ZG01x01;Seitenabfolge: Gezogener Code (1);METRIC;MEASURED;
+;;ZG01x02;Seitenabfolge: Gezogener Code (2);METRIC;MEASURED;
+;;ZG01x03;Seitenabfolge: Gezogener Code (3);METRIC;MEASURED;
+;;ZG01x04;Seitenabfolge: Gezogener Code (4);METRIC;MEASURED;
+;;ZG01x05;Seitenabfolge: Gezogener Code (5);METRIC;MEASURED;
+;;ZG01x06;Seitenabfolge: Gezogener Code (6);METRIC;MEASURED;
+;;ZG01x07;Seitenabfolge: Gezogener Code (7);METRIC;MEASURED;
+;;ZG01x08;Seitenabfolge: Gezogener Code (8);METRIC;MEASURED;
+;;ZG01x09;Seitenabfolge: Gezogener Code (9);METRIC;MEASURED;
+;;ZG01x10;Seitenabfolge: Gezogener Code (10);METRIC;MEASURED;
+;;ZG01x11;Seitenabfolge: Gezogener Code (11);METRIC;MEASURED;
+;;ZG01x12;Seitenabfolge: Gezogener Code (12);METRIC;MEASURED;
+;;TIME001;Verweildauer Seite 1;METRIC;SYSTEM;
+;;TIME002;Verweildauer Seite 2;METRIC;SYSTEM;
+;;TIME003;Verweildauer Seite 3;METRIC;SYSTEM;
+;;TIME004;Verweildauer Seite 4;METRIC;SYSTEM;
+;;TIME005;Verweildauer Seite 5;METRIC;SYSTEM;
+;;TIME006;Verweildauer Seite 6;METRIC;SYSTEM;
+;;TIME007;Verweildauer Seite 7;METRIC;SYSTEM;
+;;TIME008;Verweildauer Seite 8;METRIC;SYSTEM;
+;;TIME009;Verweildauer Seite 9;METRIC;SYSTEM;
+;;TIME010;Verweildauer Seite 10;METRIC;SYSTEM;
+;;TIME011;Verweildauer Seite 11;METRIC;SYSTEM;
+;;TIME012;Verweildauer Seite 12;METRIC;SYSTEM;
+;;TIME013;Verweildauer Seite 13;METRIC;SYSTEM;
+;;TIME014;Verweildauer Seite 14;METRIC;SYSTEM;
+;;TIME015;Verweildauer Seite 15;METRIC;SYSTEM;
+;;TIME016;Verweildauer Seite 16;METRIC;SYSTEM;
+;;TIME017;Verweildauer Seite 17;METRIC;SYSTEM;
+;;TIME018;Verweildauer Seite 18;METRIC;SYSTEM;
+;;TIME019;Verweildauer Seite 19;METRIC;SYSTEM;
+;;TIME020;Verweildauer Seite 20;METRIC;SYSTEM;
+;;TIME021;Verweildauer Seite 21;METRIC;SYSTEM;
+;;TIME022;Verweildauer Seite 22;METRIC;SYSTEM;
+;;TIME023;Verweildauer Seite 23;METRIC;SYSTEM;
+;;TIME_SUM;Verweildauer gesamt (ohne Ausreißer);METRIC;SYSTEM;
+;;MAILSENT;Versandzeitpunkt der Einladungsmail (nur für nicht-anonyme Adressaten);TIME;SYSTEM;
+;;LASTDATA;Zeitpunkt als der Datensatz das letzte mal geändert wurde;TIME;SYSTEM;
+;;FINISHED;Wurde die Befragung abgeschlossen (letzte Seite erreicht)?;BOOL;SYSTEM;
+;;Q_VIEWER;Hat der Teilnehmer den Fragebogen nur angesehen, ohne die Pflichtfragen zu beantworten?;BOOL;SYSTEM;
+;;LASTPAGE;Seite, die der Teilnehmer zuletzt bearbeitet hat;METRIC;SYSTEM;
+;;MAXPAGE;Letzte Seite, die im Fragebogen bearbeitet wurde;METRIC;SYSTEM;
+;;MISSING;Anteil fehlender Antworten in Prozent;METRIC;SYSTEM;
+;;MISSREL;Anteil fehlender Antworten (gewichtet nach Relevanz);METRIC;SYSTEM;
+;;TIME_RSI;Ausfüll-Geschwindigkeit (relativ);METRIC;SYSTEM;

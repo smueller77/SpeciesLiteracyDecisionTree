@@ -1,0 +1,17 @@
+﻿Confusion Matrix Daten;;;;;;;;;;;
+Giftpilze/ungenießbare Pilze;korrekt= 1;falsch=0;weiß nicht;falsch oder weiß nicht;gesamt;korrekt;falsch ;weiß nicht;falsch oder weiß nicht;;
+PA03 Fliegenpilz;663;13;71;84;747;88,75;1,74;9,5;11,24;;
+PA05 Frühjahrs-Giftlorchel;179;55;513;568;747;23,96;7,36;68,65;76,01;;
+PA07 Gallenröhrling;40;358;349;707;747;5,35;47,92;46,72;94,64;;
+PA09 Satansröhrling;244;41;462;503;747;32,66;5,48;61,84;67,32;;
+PA17 Bauchweh-Koralle;179;79;489;568;747;23,96;10,57;65,47;76,04;;
+PA19 Grüner Knollenblätterpilz;240;72;435;507;507;32,12;9,63;58,22;67,85;;
+;;;;;;34,46666667;13,78333333;51,73333333;65,51666667;;
+Speisepilze;korrekt=0;falsch=1;;;;;;;;;
+PA11 Rotfußröhrling;176;102;469;571;747;23,56;13,65;62,76 ;76,41;;
+PA13 Birken-Rotkappe;141;137;469;606;747;18,87;18,34;62,76 ;81,10;;
+PA15 Maronenröhrling;375;51;321;372;747;50,2;6,82;42,96;49,78;;
+PA21 Speisemorchel;139;188;420;608;747;18,6;25,16;56,23;81,39;;
+PA23 Fichten-Steinpilz;391;34;322;356;747;52,34;4,55;43,09;47,64;;
+PA25 Wiesen-Champignon;464;73;210;283;747;62,11;9,77;28,11;37,88;;
+;;;;;;37,61333333;13,04833333;42,5975;62,37;;
