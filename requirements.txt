@@ -1,0 +1,32 @@
+# !pip install pandas openpyxl --quiet
+
+# python -m venv venv-gemini-3.11.3
+
+# pip show requests
+# python.exe -m pip install --upgrade pip
+# pip install -r requirements.txt
+
+pandas
+matplotlib
+seaborn
+openpyxl
+streamlit
+
+beautifulsoup4
+google-generativeai
+html2text
+Image
+IPython
+langchain_core
+langchain_experimental
+langchain_community
+langgraph
+langchain-google-genai
+playwright
+requests
+
+openpyxl
+scipy
+
+fuzzy
+fuzzywuzzy
