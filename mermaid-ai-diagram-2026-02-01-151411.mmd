@@ -1,0 +1,43 @@
+---
+config:
+  layout: dagre
+---
+flowchart TB
+    %% Legend
+    subgraph Legend [Legend]
+      direction TB
+      L1["Correct (>3)"]:::correct
+      L2["Incorrect (<=3)"]:::incorrect
+      L3["Purely Incorrect"]:::pure_incorrect
+    end
+
+    Node0["Collecting behavior &lt;= 0.5<br>entropy = 0.984<br>samples = 747<br>value = [2, 3]<br>class = Correct (&gt;3)"] -- True --> Node1["Collecting behavior (lack of knowledge) &lt;= 0.5<br>entropy = 0.957<br>samples = 633<br>value = [4, 5]<br>class = Correct (&gt;3)"]
+    Node0 -- False --> Node2["Age &lt;= 65.5<br>entropy = 0.9<br>samples = 114<br>value = [6, 7]<br>class = Incorrect (&lt;=3)"]
+    Node1 -- True --> Node3["Collecting behavior (other reasons) &lt;= 0.5<br>entropy = 0.827<br>samples = 381<br>value = [8, 9]<br>class = Correct (&gt;3)"]
+    Node1 -- False --> Node4["Eating mushrooms (no) &lt;= 0.5<br>entropy = 0.99<br>samples = 252<br>value = [10, 11]<br>class = Incorrect (&lt;=3)"]
+    Node2 -- True --> Node5["Residence (medium city) &lt;= 0.5<br>entropy = 0.934<br>samples = 103<br>value = [7, 12]<br>class = Incorrect (&lt;=3)"]
+    Node2 -- False --> Leaf6["entropy = 0.0<br>samples = 11<br>value = [13]<br>class = Incorrect (&lt;=3)"]
+    Node3 -- True --> Leaf7["entropy = 0.773<br>samples = 357<br>value = [14, 15]<br>class = Correct (&gt;3)"]
+    Node3 -- False --> Leaf8["entropy = 0.811<br>samples = 24<br>value = [16, 17]<br>class = Incorrect (&lt;=3)"]
+    Node4 -- True --> Leaf9["entropy = 0.995<br>samples = 242<br>value = [11, 18]<br>class = Incorrect (&lt;=3)"]
+    Node4 -- False --> Leaf10["entropy = 0.0<br>samples = 10<br>value = [19]<br>class = Incorrect (&lt;=3)"]
+    Node5 -- True --> Leaf11["entropy = 0.977<br>samples = 73<br>value = [20, 21]<br>class = Incorrect (&lt;=3)"]
+    Node5 -- False --> Leaf12["entropy = 0.722<br>samples = 30<br>value = [17, 22]<br>class = Incorrect (&lt;=3)"]
+
+    Node0:::correct
+    Node1:::correct
+    Node2:::incorrect
+    Node3:::correct
+    Node4:::incorrect
+    Node5:::incorrect
+    Leaf6:::pure_incorrect
+    Leaf7:::correct
+    Leaf8:::incorrect
+    Leaf9:::incorrect
+    Leaf10:::pure_incorrect
+    Leaf11:::incorrect
+    Leaf12:::incorrect
+    classDef correct fill:#add8e6,stroke:#333,stroke-width:1px
+    classDef incorrect fill:#f6d5b4,stroke:#333,stroke-width:1px
+    classDef pure_incorrect fill:#e67e22,stroke:#333,stroke-width:2px
+    style Leaf6 fill:#FFE0B2

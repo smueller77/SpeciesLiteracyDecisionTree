@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.preprocessing import OrdinalEncoder
 import matplotlib.pyplot as plt
-
 # 1. Daten laden
 df = pd.read_csv('data/DatenDecisionTree.csv', sep=';')
 
